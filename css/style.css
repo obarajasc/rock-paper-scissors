@@ -1,0 +1,63 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FCF2F0;
+    padding: 20px 0px;
+}
+
+.game-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.game-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 500px;
+}
+
+.game-results {
+    margin: 0px 500px 0px 500px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #F0FCF2;
+}
+
+.game-results div {
+    flex: 1 1 0;
+}
+
+.match-round {
+    border: 2px solid black;
+    border-right: none;
+}
+
+.match-winner {
+    border: 2px solid black;
+    border-left: none;
+}
+
+.end-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.end-game button {
+    padding: 10px;
+    border-radius: 10px;
+    background: #F2F0FC;
+    font-weight: bold;
+}
